@@ -1,0 +1,16 @@
+{
+  "name": "starters",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "templates/*"
+  ],
+  "scripts": {
+    "format": "prettier 'templates/**/*.{ts,tsx}' --write"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@3.4.1",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
